@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Consulta com Dentista",
+      "day": "5 de Maio às 14:00h",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Reunião na Escola",
+      "day": "6 de Maio às 15:30h",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Fazer Compras",
+      "day": "9 de Maio às 18:00h",
+      "reminder": false
+    }
+  ]
+}

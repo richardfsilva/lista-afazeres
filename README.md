@@ -1,27 +1,39 @@
-# AngularCrash
+# Lista de Afazeres
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+Crie sua propria lista de afazeres.
 
-## Development server
+![index page](img.png)
+![Add task](img2.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instalação
 
-## Code scaffolding
+1. Você precisa instalar as seguintes dependencias em seu sistema:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [nodejs ^14.18.0](https://nodejs.org)
+- [npm ^6.14.15](https://npmjs.com)
+- [angular >= 10](https://angular.io)
+- [git](https://git-scm.com/)
 
-## Build
+2. Clone o projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`git clone https://github.com/richardfsilva/lista-afazeres`
 
-## Running unit tests
+3. Entre no diretório:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`cd lista-afazeres`
 
-## Running end-to-end tests
+4. Instale as dependencias do projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`npm install`
 
-## Further help
+## Executando Localmente
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Inicie o servidor angular:
+
+`ng serve`
+
+2. Em outro terminal, inicie o servidor do banco de dados falso:
+
+`npm run server`
+
+Agora, é só navegar até o endereço `http://localhost:4200/` e usar.
